@@ -3,7 +3,7 @@ pragma solidity ^0.4.21;
 import "../../zeppelin/storage/EternalStorage.sol";
 import "../util/VersionedContract.sol";
 
-contract DSEternalStorageVersioned is EternalStorage, VersionedContract {
+contract DSEternalStorage is EternalStorage, VersionedContract {
   constructor() public {
     VERSIONS.push(1);
   }

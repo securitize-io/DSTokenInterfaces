@@ -6,7 +6,7 @@ import '../util/VersionedContract.sol';
  * @title DSTrustServiceInterface
  * @dev An interface for a trust service which allows role-based access control for other contracts.
  */
-contract DSTrustServiceInterfaceVersioned is VersionedContract {
+contract DSTrustServiceInterface is VersionedContract {
   constructor() internal {
     VERSIONS.push(1);
   }

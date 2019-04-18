@@ -1,9 +1,9 @@
 pragma solidity ^0.4.23;
 
-import "../service/DSServiceConsumerInterfaceVersioned.sol";
+import "../service/DSServiceConsumerInterface.sol";
 import "../../zeppelin/token/ERC20/ERC20.sol";
 
-contract DSComplianceServiceInterfaceVersioned is DSServiceConsumerInterfaceVersioned {
+contract DSComplianceServiceInterface is DSServiceConsumerInterface {
   constructor() internal {
     VERSIONS.push(2);
   }

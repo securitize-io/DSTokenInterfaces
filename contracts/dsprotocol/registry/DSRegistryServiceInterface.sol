@@ -1,8 +1,8 @@
 pragma solidity ^0.4.23;
 
-import '../service/DSServiceConsumerInterfaceVersioned.sol';
+import '../service/DSServiceConsumerInterface.sol';
 
-contract DSRegistryServiceInterfaceVersioned is DSServiceConsumerInterfaceVersioned {
+contract DSRegistryServiceInterface is DSServiceConsumerInterface {
   constructor() internal {
     VERSIONS.push(1);
   }

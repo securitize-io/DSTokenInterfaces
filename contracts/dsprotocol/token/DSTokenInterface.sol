@@ -3,7 +3,7 @@ pragma solidity ^0.4.23;
 import "../../zeppelin/token/ERC20/ERC20.sol";
 import "../util/VersionedContract.sol";
 
-contract DSTokenInterfaceVersioned is ERC20, VersionedContract {
+contract DSTokenInterface is ERC20, VersionedContract {
   constructor() internal {
     VERSIONS.push(1);
   }
